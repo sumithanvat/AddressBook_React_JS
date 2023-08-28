@@ -1,0 +1,76 @@
+
+.addressForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+
+  .heading {
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: #007bff; 
+    padding: 5px 0; 
+  }
+ 
+  .heading h1 {
+    color: white; 
+  }
+  
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  
+  .input-text,
+  .input-address {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .cityStateZip {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+  
+  .buttons {
+    display: flex;
+    color: #e0a9b5;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
