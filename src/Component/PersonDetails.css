@@ -27,10 +27,24 @@ header {
 .TableDiv {
     margin-top: 20px;
 }
-.addLink{
-    margin-left: 600px;
-
-}
+.addLink {
+    display: flex;
+    align-items: center;
+    margin-left: 850px;
+  }
+  
+  .add-btn {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Adjust the margin as needed to position the "Add" link */
+    text-decoration: none;
+    color: white; /* You can change this to your desired text color */
+  }
+  
+  .add-text {
+    margin-left: 5px; /* Adjust the margin as needed to separate the icon and text */
+  }
+  
 .address-table {
     width: 100%;
     border-collapse: collapse;
