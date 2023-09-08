@@ -4,6 +4,7 @@
     padding: 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     width: 80%;
+    height: 600px;
     margin: auto;
 }
 
@@ -11,26 +12,25 @@ header {
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: #333;
+    height: 40px;
+    height: 10%;
+    background-color: #eeb0b0;
     color: rgb(62, 152, 204);
 }
 
 .logoDiv img {
-    height: 80px;
+    height: 60px;
     margin-right: 10px;
 }
-.textDiv{
-    margin-top: 40px;
 
-}
-.textDiv2{
-    margin-bottom: 40px;
-}
 
 .TableDiv {
     margin-top: 20px;
 }
+.addLink{
+    margin-left: 600px;
 
+}
 .address-table {
     width: 100%;
     border-collapse: collapse;
